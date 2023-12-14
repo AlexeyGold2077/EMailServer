@@ -1,15 +1,19 @@
-public class EMailServer {
+public class EMailServer implements EMailServerInterface {
     private int usersAtm;
     private User usersArray;
 
     //getters
     public int getUsersAtm() { return this.usersAtm; }
 
+    //functionality
+
+
     private class User {
         private String firstName;
         private String lastName;
         private String company;
         private String department;
+        private EMail email;
 
         //getters
         public String getFirstName() { return this.firstName; }
