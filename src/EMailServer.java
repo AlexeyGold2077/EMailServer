@@ -27,6 +27,13 @@ public class EMailServer {
             private String address;
             private int capacity;
 
+            //getters
+            public String getAddress() { return this.address; }
+            public int getCapacity() { return this.capacity; }
+
+            //setters
+            public void setAddress(String address) { this.address = address; }
+            public void setCapacity(int capacity) { this.capacity = capacity; }
         }
     }
 }
